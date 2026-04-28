@@ -154,20 +154,6 @@ java Ecommerce
 
 ---
 
-## ⚠️ Known Limitations & Future Improvements
-
-- Data is stored **in-memory** only — resets on application exit
-- Minimal input validation — production version needs robust error handling
-- Passwords stored as plain text — should use hashing in production
-- Can be extended with: database integration, payment gateway, order tracking, product search/filter, and user profile management
-
----
-
-## 📝 Notes
-
-- All data structures use `ArrayList` for dynamic in-memory storage
-- A single `Scanner` instance is used throughout to avoid input issues
-- String comparisons use `.equals()` to ensure correct behavior in Java
 
 ---
 
